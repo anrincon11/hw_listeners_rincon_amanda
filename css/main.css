@@ -1,3 +1,56 @@
 body {
 	background-color: #cd5c5c;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	width: 600px;
+	margin: auto;
+	padding-top: 80px;
+}
+
+label {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: block;
+	clear: right;
+	font-size: 21px;
+	letter-spacing: 2px;
+}
+
+textarea{
+	resize: none;
+	width: 600px;
+}
+
+#First,
+#Last {
+	border: 2px solid silver;
+}
+
+#Email {
+	border: 2px solid silver;
+}
+
+#Message {
+	border: 2px solid silver;
+}
+
+.submit-button {
+	width: 100px;
+	padding: 10px;
+	margin-top: 10px;
+	float: right;
+	color: #000000;
+}
+
+.submit-button:hover {
+	background-color: #20b2aa;
+	color: #ffffff;
 }

@@ -2,15 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>JavaScript Events</title>
     <meta name="description" content="">
 
-    <link rel="stylesheet" href="css/vendor/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" />
+	<link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
+	<div class="container">
+		<h1>Contact Form</h1>
 
+		<form>
+			<label for="First">First Name:</label>
+			<input type="text" name="First" id="First" />
+
+			<label for="Last">Last Name:</label>
+			<input type="text" name="Last" id="Last" />
+
+			<label for="Email">Email:</label>
+			<input type="text" name="Email" id="Email" />
+
+			<label for="Message">Message:</label><br />
+			<textarea name="Message" rows="10" cols="50" id="Message"></textarea>
+
+			<input type="submit" name="submit" value="Submit" class="submit-button" />
+		</form>
+	</div>
 
     <script src="js/main.js"></script>
 </body>
