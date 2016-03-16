@@ -2,7 +2,7 @@ body {
 	background-color: #cd5c5c;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
-	color: #ffffff;
+	color: #000000;
 }
 
 h1 {
@@ -12,7 +12,13 @@ h1 {
 .container {
 	width: 600px;
 	margin: auto;
-	padding-top: 80px;
+	margin-top: 50px;
+	padding: 20px;
+	background-color: #ffffff;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	-webkit-box-shadow: 3px 3px 7px 2px #6B6B6B;
+	box-shadow: 3px 3px 7px 2px #6B6B6B;
 }
 
 label {
@@ -46,7 +52,6 @@ textarea{
 	width: 100px;
 	padding: 10px;
 	margin-top: 10px;
-	float: right;
 	color: #000000;
 }
 
