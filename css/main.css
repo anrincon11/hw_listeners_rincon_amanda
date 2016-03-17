@@ -7,18 +7,23 @@ body {
 
 h1 {
 	text-align: center;
+	color: #20b2aa;
+}
+
+.site-container {
+	max-width: 700px;
 }
 
 .container {
-	width: 600px;
+	width: 50%;
 	margin: auto;
 	margin-top: 50px;
 	padding: 20px;
 	background-color: #ffffff;
 	-webkit-border-radius: 15px 15px 15px 15px;
 	border-radius: 15px 15px 15px 15px;
-	-webkit-box-shadow: 3px 3px 7px 2px #6B6B6B;
-	box-shadow: 3px 3px 7px 2px #6B6B6B;
+	-webkit-box-shadow: 3px 3px 7px 2px #6b6b6b;
+	box-shadow: 3px 3px 7px 2px #6b6b6b;
 }
 
 label {
@@ -30,9 +35,10 @@ label {
 	letter-spacing: 2px;
 }
 
-textarea{
-	resize: none;
-	width: 600px;
+input,
+textarea {
+	width: 90%;
+	margin: auto;
 }
 
 #First,
