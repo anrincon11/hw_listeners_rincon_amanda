@@ -31,11 +31,21 @@ h3 {
 	padding: 10px;
 	margin: auto;
 	margin-top: 20px;
-	float: left;
+}
+
+@media (min-width: 300px) {
+	#text {
+		width: 80%;
+	}
+}
+
+@media (min-width: 900px) {
+	#text {
+		float: left;
+	}
 }
 
 #sidebar {
-	float: right;
 	max-width: 300px;
 	background-color: #ffffff;
 	padding: 10px;
@@ -54,19 +64,23 @@ time {
 	margin-top: 180px;
 }
 
+@media (min-width: 900px) {
+	#sidebar {
+		float: right;
+	}
+}
+
 #picture {
-	width: 100%;
 	max-width: 600px;
 	background-color: #ffffff;
 	padding: 10px;
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 30px;
-	float: left;
 }
 
 figure {
-	width: 459px;
+	max-width: 459px;
 	margin: auto;
 }
 
@@ -74,6 +88,25 @@ figcaption {
 	font-style: italic;
 	text-align: center;
 	margin-top: 20px;
+}
+
+@media (min-width: 300px) {
+	#picture {
+		width: 80%;
+	}
+	figure img {
+		width: 90%;
+	}
+}
+
+@media (min-width: 900px) {
+	#picture {
+		width: 100%;
+		float: left;
+	}
+	figure img {
+		width: 100%;
+	}
 }
 
 #text,
