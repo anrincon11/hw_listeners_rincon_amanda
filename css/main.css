@@ -3,6 +3,10 @@ body {
 	color: #778899;
 }
 
+p {
+	clear: both;
+}
+
 .site-container {
 	max-width: 1000px;
 }
@@ -51,6 +55,7 @@ h3 {
 	padding: 10px;
 	margin: auto;
 	margin-top: 20px;
+	margin-bottom: 30px;
 	text-align: center;
 }
 
