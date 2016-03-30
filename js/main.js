@@ -1,6 +1,6 @@
-var button = document.getElementById( 'submit' );
+var form = document.getElementById( 'contact-form' );
 
-button.addEventListener( 'click', function( event ) {
+form.addEventListener( 'click', function( event ) {
 	event.preventDefault();
 	console.log( 'The firstName is: ' + document.getElementById( 'First' ).value );
 	console.log( 'The LastName is: ' + document.getElementById( 'Last' ).value );
